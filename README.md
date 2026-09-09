@@ -13,9 +13,11 @@ Google Search Console APIから指定キーワードのGSC平均掲載順位を�
 
 ```bash
 cp config/sites.tsv.sample config/sites.tsv
-chmod 600 ~/.secret/gsc-service-account.json
+export SERVICE_ACCOUNT_JSON="/path/to/gsc-service-account.json"
+chmod 600 "$SERVICE_ACCOUNT_JSON"
 ./check_rank.sh --list-sites
 ./check_rank.sh
 ```
 
+サービスアカウントJSONキーはリポジトリ外の任意の場所に保存し、`SERVICE_ACCOUNT_JSON` でパスを指定してください。
 実サイトURL、監視キーワード、順位履歴、サービスアカウントJSONキーはコミットしないでください。
