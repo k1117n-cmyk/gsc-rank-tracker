@@ -1,5 +1,11 @@
 # GSC Rank Checker
 
+![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)
+![Google Search Console API](https://img.shields.io/badge/API-Google%20Search%20Console-4285F4?logo=google&logoColor=white)
+![Requires](https://img.shields.io/badge/requires-curl%20%7C%20jq%20%7C%20openssl-blue)
+![Output](https://img.shields.io/badge/output-TSV-informational)
+![License](https://img.shields.io/github/license/k1117n-cmyk/gsc-rank-tracker)
+
 Google Search Console APIから指定キーワードのGSC平均掲載順位を取得し、TSV履歴へ保存するシェルスクリプトです。
 
 ## Files
