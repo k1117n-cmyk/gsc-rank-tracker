@@ -27,3 +27,7 @@ chmod 600 "$SERVICE_ACCOUNT_JSON"
 
 サービスアカウントJSONキーはリポジトリ外の任意の場所に保存し、`SERVICE_ACCOUNT_JSON` でパスを指定してください。
 実サイトURL、監視キーワード、順位履歴、サービスアカウントJSONキーはコミットしないでください。
+
+## Blog
+
+- [Google Search Console APIで検索順位をTSV保存するシェルスクリプト](https://pc-fan.net/google-search-console-api-rank-tsv-shell-script/)
