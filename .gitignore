@@ -1,0 +1,8 @@
+.DS_Store
+config/sites.tsv
+keywords/*.txt
+!keywords/sample.txt
+data/*
+!data/.gitkeep
+*.secret.json
+gsc-service-account.json
